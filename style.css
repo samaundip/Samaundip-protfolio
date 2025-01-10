@@ -1,0 +1,140 @@
+*{ margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+
+body{
+    background-color: #33538f;
+}
+/* nav ber */
+.nav-container{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    background-color: rgb(71, 27, 27);
+    z-index: 999;
+
+}
+.nav-container> .nav >a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   width: 100%;
+   height: 100%;
+   
+}
+.logo a{ font-size: 35px;
+       font-weight: 700;
+       text-decoration: none;
+     color: #ffffff;
+    transition: ;}
+
+
+ .nav-container> .nav >a:hover{
+    background-color: rgb(145, 255, 0);
+    cursor: pointer;
+ }
+
+ /* home section */
+
+ .Home{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       padding: 40px 9% 0;
+       color: #ffffff;
+ }
+
+ .info h1{ font-size: 40px;
+}
+.info h2{ font-size: 25px;
+            margin-top: 5px;}
+
+
+.info p { font-size: 15px;
+          margin: 10px 5px 0 0;
+          text-align: justify;
+         }
+
+
+
+.info .social-midea {
+    
+    margin: 10px ;
+    padding: 10px 10px;
+
+}       
+    .info .social-midea a{
+        margin: 10px;
+        color: black;
+        /* border: 1px solid white; */
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .info .social-midea a:hover{
+        box-shadow: 1px 1px 10px #faf4f4;
+        color: black;
+    }
+    .info .button button{  margin: 15px 10px;
+             padding: 15px;
+            background-color: black;
+            color: beige;}
+            .info .button button:hover{
+                background-color: aqua;
+                color: black;
+                cursor: pointer;   }
+    
+     /* .i 
+                display:flex;
+                align-items: center;
+                justify-items: center;
+                align-items:;
+                width: 100px;
+                height: 100px;
+                border-radius: 50$;
+
+            /* } */
+
+    .About{display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+    }
+    h3{ text-align: center;
+     padding: 20px;
+     margin: 10px;
+    color: #ffffff;}
+
+
+    .about-text >p { margin: 30px;
+                padding: 10px 10px;
+                text-align: justify;
+                font-size: 15px;
+                color: #ffffff;
+
+
+    }
+    .img1 > img{ width: 150px;
+          height: 150px;
+          border: 1px solid yellowgreen;
+          border-radius: 50%;
+          margin-top: 30px ;
+          margin-left: 160px;
+          padding: 0px;
+          text-align: center;
+
+    }
+    
+
+    
